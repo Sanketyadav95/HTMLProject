@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SimpleWebPage</title>
+</head>
+
+<body>
+
+  <div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <div>
+    <h1>Hello world</h1><br>
+
+    <button>
+      <a href="https://openai.com/">Click me</a>
+    </button> <br>
+
+    <label>Enter the address:</label>
+    <textarea placeholder="Enter the text"></textarea><br>
+  
+
+  <div>
+    <form >
+      <label>Enter your name:</label>
+      <input type="text" name="name"><br>
+
+      <label>Enter your email:</label>
+      <input type="email" name="email"><br>
+
+      <label>Select your gender:</label><br>
+      <input type="radio" name="gender" value="Male"> Male<br>
+      <input type="radio" name="gender" value="Female"> Female<br>
+
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+
+  <div>
+    <iframe src=""></iframe>
+  </div>
+
+</body>
+</html>
